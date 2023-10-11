@@ -16,7 +16,7 @@ vtkNew<vtkRenderWindowInteractor> interactor;
 vtkNew<vtkInteractorStyleTrackballCamera> style;
 interactor->SetInteractorStyle(style);
 ```
-上面两行代码即可搞定！！！
+上面两行代码即可搞定！！！（当然，上面两行代码必须在interactor->Start();之前调用）
 
 # 关于vtkInteractorStyleTrackballCamera类
 可以参考官方文档：
