@@ -5,6 +5,7 @@ vtkActor包含以下几个关键方面：
 1. 几何数据（Geometry Data）：
 vtkActor通过与几何数据相关联来定义其形状和结构。可以使用各种VTK提供的几何数据类型，如vtkPolyData、vtkStructuredGrid等，作为vtkActor的输入数据。
 <font color=red>也就是说,除了Polydata,其他的一些几何数据可以是可以作为actor的输入参数!!!</font>
+
 2. 显示属性（Display Properties）：
 vtkActor允许您设置对象的外观属性，例如颜色、透明度、表面属性等。这些显示属性可以影响对象在渲染过程中的呈现效果。
 
