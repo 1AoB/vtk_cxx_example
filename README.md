@@ -13,7 +13,7 @@
 <p align="center">
     <a href="https://github.com/1AoB"><img src="https://img.shields.io/badge/status-updating-brightgreen.svg"></a>
     <a href="https://github.com/python/cpython"><img src="https://img.shields.io/badge/Python-3.10-FF1493.svg"></a>
-    <a href="https://github.com/BEPb/BEPb/stargazers"><img src="https://img.shields.io/github/stars/BEPb/BEPb.svg?logo=github"></a>
+    <a href="https://github.com/1AoB/1AoB/stargazers"><img src="https://img.shields.io/github/stars/1AoB/1AoB.svg?logo=github"></a>
 </p>
 
 <!--   my-header-img -->
