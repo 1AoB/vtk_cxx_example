@@ -16,3 +16,4 @@ vtkNew<vtkRenderWindowInteractor> interactor;
 vtkNew<vtkInteractorStyleTrackballCamera> style;
 interactor->SetInteractorStyle(style);
 ```
+上面两行代码即可搞定！！！
