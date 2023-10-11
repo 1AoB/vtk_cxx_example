@@ -26,3 +26,11 @@ vtkInteractorStyleTrackballCamera 翻译一下：大概是 ： 摄像机的交�
 vtkInteractorStyleTrackballCamera允许用户交互操作（旋转、平移等）相机，场景的视角。在轨迹球交互中，鼠标运动的幅度与与特定鼠标绑定关联的相机运动成比例。例如，**小的左键运动**会导致相机围绕其焦点旋转的**微小变化**。
 对于3键鼠标：左键用于旋转，右键用于缩放，中键用于平移，Ctrl +左键用于旋转，Shift +右键用于环境旋转。(**官方文档说：shift + right button for environment rotation，暂时我还不知道什么是“环境旋转”？如何触发环境旋转？反正我按下shift+右键没有任何效果**)
 (With更少的鼠标按钮，Ctrl + Shift +左键用于缩放，Shift +左键用于平移。）
+
+## 总结一下
+使用了vtkInteractorStyleTrackballCamera类
+Ctrl +左键用于旋转，Shift +右键用于环境旋转（不生效的原因还不知道）
+Ctrl + Shift +左键用于缩放，Shift +左键用于平移
+
+你可能会疑惑？单击左键不就可以旋转了吗？Ctrl +左键用于旋转是不是多余？
+非也，Ctrl +左键是由鼠标追随的，用起来更舒服，具体什么原因，我还在看源码...大概是两种旋转的旋转点不同...
