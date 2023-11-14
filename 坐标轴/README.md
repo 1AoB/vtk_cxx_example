@@ -1,3 +1,4 @@
+记住:在qvtkopengl中显示坐标轴,你需要将坐标设为全局变量(也就是成员变量),这样你在移动stl模型时,坐标轴才不会消失.
 ```cpp
 const char* stlFilePath = "./upper.stl";
 // 创建STL文件读取器
